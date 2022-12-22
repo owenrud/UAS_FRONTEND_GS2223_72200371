@@ -67,7 +67,7 @@ class _getPhotosState extends State<getPhotos> {
                   ),
                   title: Text(_get[index]['title']),
                   subtitle: CircleAvatar(
-                      backgroundImage: AssetImage(_get[index]['url'])),
+                      backgroundImage: NetworkImage(_get[index]['url'])),
                   trailing: PopupMenuButton(
                     icon: Icon(Icons.more_vert),
                     itemBuilder: (context) {
