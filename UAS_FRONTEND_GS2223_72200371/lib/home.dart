@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Photos.dart';
+import 'package:flutter_application_1/Users.dart';
 import 'package:flutter_application_1/comments.dart';
 import 'package:flutter_application_1/posts.dart';
 
@@ -57,7 +58,7 @@ class _HomeState extends State<Home> {
               title: Text("Users"),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => getPosts()));
+                    MaterialPageRoute(builder: (context) => getUsers()));
               },
             ),
           ],
